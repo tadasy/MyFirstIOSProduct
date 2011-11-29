@@ -37,20 +37,20 @@
 		B3547915148503B100A1D750 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3547917148503B100A1D750 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3547919148503B100A1D750 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B354791D148503B100A1D750 /* MyFirstIOSProduct-Info.plist */ = {isa = PBXFileReference; path = "MyFirstIOSProduct-Info.plist"; sourceTree = "<group>"; };
+		B354791D148503B100A1D750 /* MyFirstIOSProduct-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstIOSProduct-Info.plist"; sourceTree = "<group>"; };
 		B354791F148503B100A1D750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3547921148503B100A1D750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B3547923148503B100A1D750 /* MyFirstIOSProduct-Prefix.pch */ = {isa = PBXFileReference; path = "MyFirstIOSProduct-Prefix.pch"; sourceTree = "<group>"; };
-		B3547924148503B100A1D750 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3547923148503B100A1D750 /* MyFirstIOSProduct-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstIOSProduct-Prefix.pch"; sourceTree = "<group>"; };
+		B3547924148503B100A1D750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3547925148503B100A1D750 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B3547928148503B100A1D750 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B354792A148503B100A1D750 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B354792A148503B100A1D750 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B354792B148503B100A1D750 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B3547932148503B100A1D750 /* MyFirstIOSProductTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstIOSProductTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3547933148503B100A1D750 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B354793B148503B100A1D750 /* MyFirstIOSProductTests-Info.plist */ = {isa = PBXFileReference; path = "MyFirstIOSProductTests-Info.plist"; sourceTree = "<group>"; };
+		B354793B148503B100A1D750 /* MyFirstIOSProductTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstIOSProductTests-Info.plist"; sourceTree = "<group>"; };
 		B354793D148503B100A1D750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B354793F148503B100A1D750 /* MyFirstIOSProductTests.h */ = {isa = PBXFileReference; path = MyFirstIOSProductTests.h; sourceTree = "<group>"; };
+		B354793F148503B100A1D750 /* MyFirstIOSProductTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstIOSProductTests.h; sourceTree = "<group>"; };
 		B3547940148503B100A1D750 /* MyFirstIOSProductTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstIOSProductTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
