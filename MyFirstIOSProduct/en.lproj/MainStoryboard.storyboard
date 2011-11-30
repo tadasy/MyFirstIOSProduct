@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="44p-CD-U62">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ALR-2e-hxR">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
@@ -10,7 +10,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Z1-X0-QFp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="44p-CD-U62" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5hb-vM-vYf">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="first" lineBreakMode="tailTruncation" minimumFontSize="10" id="xto-UR-8LH">
@@ -21,7 +21,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dI8-iN-meK">
-                                <rect key="frame" x="124" y="403" width="72" height="37"/>
+                                <rect key="frame" x="124" y="351" width="72" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="move">
@@ -32,7 +32,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rh7-RB-mvP" kind="modal" id="3dd-B2-hxh"/>
+                                    <segue destination="rh7-RB-mvP" kind="push" id="3dd-B2-hxh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,14 +41,14 @@
                     <navigationItem key="navigationItem" id="jvL-Zc-HRG"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="139" y="210"/>
+            <point key="canvasLocation" x="665" y="210"/>
         </scene>
         <scene sceneID="rhP-gN-kSt">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zMH-1u-W8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="rh7-RB-mvP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gqs-9B-3kF">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="second" lineBreakMode="tailTruncation" minimumFontSize="10" id="lrL-TO-Eg2">
@@ -58,28 +58,30 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YVP-YK-VD8">
-                                <rect key="frame" x="124" y="397" width="72" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="back">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="44p-CD-U62" kind="modal" id="hz8-4w-aY0"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Ew-4d-5uF"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="615" y="222"/>
+            <point key="canvasLocation" x="1141" y="222"/>
+        </scene>
+        <scene sceneID="7UK-H0-C48">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tox-v8-LjL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="ALR-2e-hxR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="hXh-zU-nRf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="44p-CD-U62" kind="relationship" relationship="rootViewController" id="zWe-GC-Hvh"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="139" y="210"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
